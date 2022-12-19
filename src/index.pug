@@ -1,0 +1,13 @@
+include pug/libs/_libs
+//- include pug/components/components.pug
+
+doctype html
+html(lang='en')
+  include pug/_head.pug 
+  body
+    .wrapper
+      .container
+        .start-page.flex-center
+          h1="Webpack 5 Template"
+          .start-page__image
+            +image('logo.png')
